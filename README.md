@@ -25,7 +25,7 @@ dotnet run --project src/UnitConversionTool.Api
 The API starts on:
 
 - HTTPS: `https://localhost:7198`
-- HTTP: `http://localhost:5032`
+- HTTP: `http://localhost:5000`
 
 ### Run tests
 
