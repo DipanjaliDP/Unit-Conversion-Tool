@@ -1,0 +1,24 @@
+@UnitConversionTool.Api_HostAddress = https://localhost:7198
+
+### Convert meters to feet
+POST {{UnitConversionTool.Api_HostAddress}}/api/convert
+Content-Type: application/json
+
+{
+  "value": 10,
+  "from": "m",
+  "to": "ft"
+}
+
+### Convert Celsius to Fahrenheit
+POST {{UnitConversionTool.Api_HostAddress}}/api/convert
+Content-Type: application/json
+
+{
+  "value": 100,
+  "from": "c",
+  "to": "f"
+}
+
+### List supported units
+GET {{UnitConversionTool.Api_HostAddress}}/api/units
