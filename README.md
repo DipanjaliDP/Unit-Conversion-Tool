@@ -75,12 +75,12 @@ Returns all supported units grouped by category.
 
 ## Supported Units
 
-| Category | Units |
-|----------|-------|
-| Length | `m`, `km`, `cm`, `mm`, `in`, `ft`, `yd`, `mi` |
-| Temperature | `c`, `f`, `k` |
-| Weight | `kg`, `g`, `mg`, `lb`, `oz` |
-| Volume | `l`, `ml`, `gal`, `qt`, `pt`, `cup`, `floz` |
+| Category    | Units                                         |
+| ----------- | --------------------------------------------- |
+| Length      | `m`, `km`, `cm`, `mm`, `in`, `ft`, `yd`, `mi` |
+| Temperature | `c`, `f`, `k`                                 |
+| Weight      | `kg`, `g`, `mg`, `lb`, `oz`                   |
+| Volume      | `l`, `ml`, `gal`, `qt`, `pt`, `cup`, `floz`   |
 
 Unit codes are case-insensitive.
 
